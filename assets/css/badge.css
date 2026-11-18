@@ -1,0 +1,51 @@
+.labelwise-badge {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.5em 0.75em;
+	margin: 0 0 1.5em;
+	padding: 0.6em 0.9em;
+	border-left: 4px solid #b45309;
+	background: #fff7e0;
+	color: #10223f;
+	font-size: 0.9em;
+	line-height: 1.4;
+}
+
+.labelwise-badge:last-child {
+	margin: 1.5em 0 0;
+}
+
+.labelwise-badge__mark {
+	padding: 0.1em 0.45em;
+	background: #10223f;
+	color: #ffd479;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+.labelwise-badge__text {
+	font-weight: 600;
+}
+
+.labelwise-badge__meta {
+	opacity: 0.85;
+}
+
+.labelwise-badge__link,
+.labelwise-badge__link:visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.labelwise-badge--dark {
+	border-left-color: #ffd479;
+	background: #10223f;
+	color: #ffffff;
+}
+
+.labelwise-badge--dark .labelwise-badge__mark {
+	background: #ffd479;
+	color: #10223f;
+}
